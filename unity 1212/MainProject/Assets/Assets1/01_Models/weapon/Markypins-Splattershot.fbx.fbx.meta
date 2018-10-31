@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: a76883db60fed264c908208790f2fe68
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back
+    100002: Barrel
+    100004: Barrel_1
+    100006: Barrel_2
+    100008: Body_1
+    100010: Body_2
+    100012: Body_3
+    100014: Bottle
+    100016: bottom
+    100018: Chimney
+    100020: Grip
+    100022: Grip_Sides_1
+    100024: Grip_Sides_2
+    100026: Ink_Ring
+    100028: left
+    100030: Lock
+    100032: Lower_Ring
+    100034: //RootNode
+    100036: pCylinder2
+    100038: pCylinder2 1
+    100040: pCylinder26
+    100042: pCylinder26 1
+    100044: pCylinder27
+    100046: pCylinder27 1
+    100048: pCylinder28
+    100050: pCylinder28 1
+    100052: pCylinder29
+    100054: pCylinder29 1
+    100056: pCylinder30
+    100058: pCylinder30 1
+    100060: pCylinder31
+    100062: pCylinder31 1
+    100064: pCylinder32
+    100066: pCylinder32 1
+    100068: pCylinder33
+    100070: pCylinder33 1
+    100072: pCylinder34
+    100074: pCylinder34 1
+    100076: pCylinder35
+    100078: pCylinder35 1
+    100080: pCylinder36
+    100082: pCylinder36 1
+    100084: pCylinder37
+    100086: pCylinder37 1
+    100088: pCylinder38
+    100090: pCylinder38 1
+    100092: Pill1
+    100094: Pill10
+    100096: Pill11
+    100098: Pill12
+    100100: Pill13
+    100102: Pill14
+    100104: Pill15
+    100106: Pill16
+    100108: Pill17
+    100110: Pill18
+    100112: Pill19
+    100114: Pill2
+    100116: Pill20
+    100118: Pill3
+    100120: Pill4
+    100122: Pill5
+    100124: Pill6
+    100126: Pill7
+    100128: Pill8
+    100130: Pill9
+    100132: Ring
+    100134: Ring 1
+    100136: S1
+    100138: S2
+    100140: S3
+    100142: S4
+    100144: S5
+    100146: S6
+    100148: Screw1
+    100150: Screw10
+    100152: Screw2
+    100154: Screw3
+    100156: Screw4
+    100158: Screw5
+    100160: Screw6
+    100162: Screw7
+    100164: Screw8
+    100166: Screw9
+    100168: Screws
+    100170: Splater_Body
+    100172: Splattershot
+    100174: sunDirection
+    100176: Trigger_1
+    100178: Trigger_2
+    100180: Upper_Ring
+    400000: back
+    400002: Barrel
+    400004: Barrel_1
+    400006: Barrel_2
+    400008: Body_1
+    400010: Body_2
+    400012: Body_3
+    400014: Bottle
+    400016: bottom
+    400018: Chimney
+    400020: Grip
+    400022: Grip_Sides_1
+    400024: Grip_Sides_2
+    400026: Ink_Ring
+    400028: left
+    400030: Lock
+    400032: Lower_Ring
+    400034: //RootNode
+    400036: pCylinder2
+    400038: pCylinder2 1
+    400040: pCylinder26
+    400042: pCylinder26 1
+    400044: pCylinder27
+    400046: pCylinder27 1
+    400048: pCylinder28
+    400050: pCylinder28 1
+    400052: pCylinder29
+    400054: pCylinder29 1
+    400056: pCylinder30
+    400058: pCylinder30 1
+    400060: pCylinder31
+    400062: pCylinder31 1
+    400064: pCylinder32
+    400066: pCylinder32 1
+    400068: pCylinder33
+    400070: pCylinder33 1
+    400072: pCylinder34
+    400074: pCylinder34 1
+    400076: pCylinder35
+    400078: pCylinder35 1
+    400080: pCylinder36
+    400082: pCylinder36 1
+    400084: pCylinder37
+    400086: pCylinder37 1
+    400088: pCylinder38
+    400090: pCylinder38 1
+    400092: Pill1
+    400094: Pill10
+    400096: Pill11
+    400098: Pill12
+    400100: Pill13
+    400102: Pill14
+    400104: Pill15
+    400106: Pill16
+    400108: Pill17
+    400110: Pill18
+    400112: Pill19
+    400114: Pill2
+    400116: Pill20
+    400118: Pill3
+    400120: Pill4
+    400122: Pill5
+    400124: Pill6
+    400126: Pill7
+    400128: Pill8
+    400130: Pill9
+    400132: Ring
+    400134: Ring 1
+    400136: S1
+    400138: S2
+    400140: S3
+    400142: S4
+    400144: S5
+    400146: S6
+    400148: Screw1
+    400150: Screw10
+    400152: Screw2
+    400154: Screw3
+    400156: Screw4
+    400158: Screw5
+    400160: Screw6
+    400162: Screw7
+    400164: Screw8
+    400166: Screw9
+    400168: Screws
+    400170: Splater_Body
+    400172: Splattershot
+    400174: sunDirection
+    400176: Trigger_1
+    400178: Trigger_2
+    400180: Upper_Ring
+    2000000: back
+    2000002: bottom
+    2000004: left
+    2100000: phong9
+    2100002: phong3
+    2100004: phong10
+    2100006: phong1
+    2100008: phong2
+    2100010: phong8
+    2100012: phong11
+    2100014: phong4
+    2100016: phong6
+    2100018: phong7
+    2100020: phong5
+    2300000: Barrel_1
+    2300002: Barrel_2
+    2300004: Body_1
+    2300006: Body_2
+    2300008: Body_3
+    2300010: Bottle
+    2300012: Chimney
+    2300014: Grip
+    2300016: Lock
+    2300018: pCylinder2
+    2300020: pCylinder2 1
+    2300022: pCylinder26
+    2300024: pCylinder26 1
+    2300026: pCylinder27
+    2300028: pCylinder27 1
+    2300030: pCylinder28
+    2300032: pCylinder28 1
+    2300034: pCylinder29
+    2300036: pCylinder29 1
+    2300038: pCylinder30
+    2300040: pCylinder30 1
+    2300042: pCylinder31
+    2300044: pCylinder31 1
+    2300046: pCylinder32
+    2300048: pCylinder32 1
+    2300050: pCylinder33
+    2300052: pCylinder33 1
+    2300054: pCylinder34
+    2300056: pCylinder34 1
+    2300058: pCylinder35
+    2300060: pCylinder35 1
+    2300062: pCylinder36
+    2300064: pCylinder36 1
+    2300066: pCylinder37
+    2300068: pCylinder37 1
+    2300070: pCylinder38
+    2300072: pCylinder38 1
+    2300074: Pill1
+    2300076: Pill10
+    2300078: Pill11
+    2300080: Pill12
+    2300082: Pill13
+    2300084: Pill14
+    2300086: Pill15
+    2300088: Pill16
+    2300090: Pill17
+    2300092: Pill18
+    2300094: Pill19
+    2300096: Pill2
+    2300098: Pill20
+    2300100: Pill3
+    2300102: Pill4
+    2300104: Pill5
+    2300106: Pill6
+    2300108: Pill7
+    2300110: Pill8
+    2300112: Pill9
+    2300114: Ring
+    2300116: Ring 1
+    2300118: S1
+    2300120: S2
+    2300122: S3
+    2300124: S4
+    2300126: S5
+    2300128: S6
+    2300130: Screw1
+    2300132: Screw10
+    2300134: Screw2
+    2300136: Screw3
+    2300138: Screw4
+    2300140: Screw5
+    2300142: Screw6
+    2300144: Screw7
+    2300146: Screw8
+    2300148: Screw9
+    2300150: Trigger_1
+    2300152: Trigger_2
+    3300000: Barrel_1
+    3300002: Barrel_2
+    3300004: Body_1
+    3300006: Body_2
+    3300008: Body_3
+    3300010: Bottle
+    3300012: Chimney
+    3300014: Grip
+    3300016: Lock
+    3300018: pCylinder2
+    3300020: pCylinder2 1
+    3300022: pCylinder26
+    3300024: pCylinder26 1
+    3300026: pCylinder27
+    3300028: pCylinder27 1
+    3300030: pCylinder28
+    3300032: pCylinder28 1
+    3300034: pCylinder29
+    3300036: pCylinder29 1
+    3300038: pCylinder30
+    3300040: pCylinder30 1
+    3300042: pCylinder31
+    3300044: pCylinder31 1
+    3300046: pCylinder32
+    3300048: pCylinder32 1
+    3300050: pCylinder33
+    3300052: pCylinder33 1
+    3300054: pCylinder34
+    3300056: pCylinder34 1
+    3300058: pCylinder35
+    3300060: pCylinder35 1
+    3300062: pCylinder36
+    3300064: pCylinder36 1
+    3300066: pCylinder37
+    3300068: pCylinder37 1
+    3300070: pCylinder38
+    3300072: pCylinder38 1
+    3300074: Pill1
+    3300076: Pill10
+    3300078: Pill11
+    3300080: Pill12
+    3300082: Pill13
+    3300084: Pill14
+    3300086: Pill15
+    3300088: Pill16
+    3300090: Pill17
+    3300092: Pill18
+    3300094: Pill19
+    3300096: Pill2
+    3300098: Pill20
+    3300100: Pill3
+    3300102: Pill4
+    3300104: Pill5
+    3300106: Pill6
+    3300108: Pill7
+    3300110: Pill8
+    3300112: Pill9
+    3300114: Ring
+    3300116: Ring 1
+    3300118: S1
+    3300120: S2
+    3300122: S3
+    3300124: S4
+    3300126: S5
+    3300128: S6
+    3300130: Screw1
+    3300132: Screw10
+    3300134: Screw2
+    3300136: Screw3
+    3300138: Screw4
+    3300140: Screw5
+    3300142: Screw6
+    3300144: Screw7
+    3300146: Screw8
+    3300148: Screw9
+    3300150: Trigger_1
+    3300152: Trigger_2
+    4300000: S6
+    4300002: S5
+    4300004: S4
+    4300006: S3
+    4300008: S1
+    4300010: S2
+    4300012: Grip
+    4300014: Body_3
+    4300016: Body_2
+    4300018: Body_1
+    4300020: Trigger_1
+    4300022: Trigger_2
+    4300024: pCylinder2
+    4300026: pCylinder26
+    4300028: pCylinder27
+    4300030: pCylinder28
+    4300032: pCylinder29
+    4300034: pCylinder30
+    4300036: pCylinder31
+    4300038: pCylinder32
+    4300040: pCylinder33
+    4300042: pCylinder34
+    4300044: pCylinder35
+    4300046: pCylinder36
+    4300048: pCylinder37
+    4300050: pCylinder38
+    4300052: pCylinder2
+    4300054: pCylinder26
+    4300056: pCylinder27
+    4300058: pCylinder28
+    4300060: pCylinder29
+    4300062: pCylinder30
+    4300064: pCylinder31
+    4300066: pCylinder32
+    4300068: pCylinder33
+    4300070: pCylinder34
+    4300072: pCylinder35
+    4300074: pCylinder36
+    4300076: pCylinder37
+    4300078: pCylinder38
+    4300080: Pill20
+    4300082: Pill11
+    4300084: Pill12
+    4300086: Pill13
+    4300088: Pill14
+    4300090: Pill15
+    4300092: Pill16
+    4300094: Pill17
+    4300096: Pill18
+    4300098: Pill19
+    4300100: Ring
+    4300102: Pill1
+    4300104: Pill2
+    4300106: Pill3
+    4300108: Pill4
+    4300110: Pill5
+    4300112: Pill6
+    4300114: Pill7
+    4300116: Pill8
+    4300118: Pill9
+    4300120: Pill10
+    4300122: Ring
+    4300124: Lock
+    4300126: Bottle
+    4300128: Screw1
+    4300130: Screw2
+    4300132: Screw3
+    4300134: Screw4
+    4300136: Screw5
+    4300138: Screw6
+    4300140: Screw7
+    4300142: Screw8
+    4300144: Screw9
+    4300146: Screw10
+    4300148: Chimney
+    4300150: Barrel_1
+    4300152: Barrel_2
+    9500000: //RootNode
+    10800000: sunDirection
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
