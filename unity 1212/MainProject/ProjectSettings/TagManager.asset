@@ -8,6 +8,7 @@ TagManager:
   - Dead
   - Player1Army
   - Player2Army
+  - Castle
   layers:
   - Default
   - TransparentFX

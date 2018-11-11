@@ -58,7 +58,11 @@ public class ArmyScript : MonoBehaviour {
          {
              Dead();
          }*/
-
+        if(MyTarget.GetComponent<DestroyMe>().isDead == true)
+        {
+            GetComponent<AllAnim>().BoolWalk = true;
+            GetComponent<AllAnim>().BoolAttack = false;
+        }
 
 
     }
