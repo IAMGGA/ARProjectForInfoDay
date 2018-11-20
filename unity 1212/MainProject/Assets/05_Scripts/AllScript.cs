@@ -33,8 +33,6 @@ public class AllScript : MonoBehaviour {
         WhatTarget();
         GoMove();
         GoAttack();
-        
-
     }
 
     void WhatTarget()
@@ -59,23 +57,26 @@ public class AllScript : MonoBehaviour {
 
     void GoAttack()
     {
-        AttDistance = Vector3.Distance(transform.position, MyTarget.transform.position);
-        if (AttDistance <= AttDistanceMax)
+        if (MyTarget)
         {
-            BoolWalk = false;
-            BoolAttack = true;
-        }
-        else
-        {
-            BoolWalk = true;
-            BoolAttack = false;
-        }
-        if (MyTarget.tag != "Castle")
-        {
-            if (MyTarget.GetComponent<AllScript>().isDead == true)
+            AttDistance = Vector3.Distance(transform.position, MyTarget.transform.position);
+            if (AttDistance <= AttDistanceMax)
+            {
+                BoolWalk = false;
+                BoolAttack = true;
+            }
+            else
             {
                 BoolWalk = true;
                 BoolAttack = false;
+            }
+            if (MyTarget.tag != "Castle")
+            {
+                if (MyTarget.GetComponent<AllScript>().isDead == true)
+                {
+                    BoolWalk = true;
+                    BoolAttack = false;
+                }
             }
         }
     }
