@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01_Scenes/ARVuforia.unity
-    guid: e96a2b58942210b46bad80451ed46c63
+    path: Assets/01_Scenes/Character2.unity
+    guid: c4c6adca2bb1a904fb6675cc3359cc61
   m_configObjects: {}
