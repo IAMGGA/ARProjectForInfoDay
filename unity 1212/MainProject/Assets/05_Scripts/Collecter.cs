@@ -56,6 +56,7 @@ public class Collecter : MonoBehaviour {
         {
             VerticalMove = 0f;
         }
+        transform.Rotate(0, joystick.Horizontal*3, 0);
     }
 
 }
