@@ -5,11 +5,12 @@ using UnityEngine;
 public class UIButton : MonoBehaviour {
 
     public GameObject BuyPanel;
-    public GameObject BuyButton;
+    public GameObject ControlerButton;
 
 	// Use this for initialization
 	void Start () {
         BuyPanel.SetActive(false);
+        ControlerButton.SetActive(true);
 	}
 	
 	// Update is called once per frame
@@ -17,16 +18,24 @@ public class UIButton : MonoBehaviour {
 		
 	}
 
-    public void OpenPanel()
+    public void SwitchPanel()
     {
-        BuyPanel.SetActive(true);
-        BuyButton.SetActive(false);
+        if (BuyPanel.active == false && ControlerButton.active == true)
+        {
+            BuyPanel.SetActive(true);
+            ControlerButton.SetActive(false);
+        }
+        else if (BuyPanel.active == true && ControlerButton.active == false)
+        {
+            BuyPanel.SetActive(false);
+            ControlerButton.SetActive(true);
+        }
     }
 
-    public void ClosePanel()
+    public void CollectPanel()
     {
         BuyPanel.SetActive(false);
-        BuyButton.SetActive(true);
+        ControlerButton.SetActive(true);
     }
 
 }

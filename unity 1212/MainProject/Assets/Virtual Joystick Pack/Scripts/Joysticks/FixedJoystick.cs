@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class FixedJoystick : Joystick
+public class FixedJoystick : JoystickS
 {
     Vector2 joystickPosition = Vector2.zero;
     private Camera cam = new Camera();

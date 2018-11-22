@@ -3,7 +3,7 @@
 public class Player2DExample : MonoBehaviour 
 {
     public float moveSpeed = 8f;
-    public Joystick joystick;
+    public JoystickS joystick;
 
     private void Update()
     {

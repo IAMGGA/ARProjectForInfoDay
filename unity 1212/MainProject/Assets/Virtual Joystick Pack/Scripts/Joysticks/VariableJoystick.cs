@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class VariableJoystick : Joystick
+public class VariableJoystick : JoystickS
 {
     [Header("Variable Joystick Options")]
     public bool isFixed = true;

@@ -9,6 +9,9 @@ TagManager:
   - Player1Army
   - Player2Army
   - Castle
+  - Fire
+  - ItemPoint
+  - Paint
   layers:
   - Default
   - TransparentFX

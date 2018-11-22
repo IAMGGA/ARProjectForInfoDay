@@ -10,12 +10,12 @@ public class Spwan : MonoBehaviour {
     public GameObject[] Army;
     public float CoolDown = 2;
     public GameObject[] SpwanButton;
-
-	// Use this for initialization
-	void Start () {
-        
+    public GameObject player;
+        private void Start()
+    {
+        player = GameObject.Find("Player2Castle");
+    }
     
-	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -33,8 +33,9 @@ public class Spwan : MonoBehaviour {
 
     public void SpwanRider()
     {
-        if (CoolDown <= 0)
+        if (CoolDown <= 0 && player.GetComponent<Player>().MyCore >= 3 )
         {
+            player.GetComponent<Player>().MyCore -= 3;
             Instantiate(Army[0], spwan.transform.position, Quaternion.identity);
             CoolDown = 2;
         }
@@ -42,8 +43,9 @@ public class Spwan : MonoBehaviour {
 
     public void SpwanShooter()
     {
-        if (CoolDown <= 0)
+        if (CoolDown <= 0 && player.GetComponent<Player>().MyCore >= 2)
         {
+            player.GetComponent<Player>().MyCore -= 2;
             Instantiate(Army[1], spwan.transform.position, Quaternion.identity);
             CoolDown = 2;
         }
@@ -51,8 +53,9 @@ public class Spwan : MonoBehaviour {
 
     public void SpwanSword()
     {
-        if (CoolDown <= 0)
+        if (CoolDown <= 0 && player.GetComponent<Player>().MyCore >= 1)
         {
+            player.GetComponent<Player>().MyCore -= 1;
             Instantiate(Army[2], spwan.transform.position, Quaternion.identity);
             CoolDown = 2;
         }

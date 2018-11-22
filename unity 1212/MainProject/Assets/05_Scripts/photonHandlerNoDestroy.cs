@@ -31,7 +31,7 @@ public class photonHandlerNoDestroy : MonoBehaviour {
 
 	private void moveGameScene()
     {
-        PhotonNetwork.LoadLevel("Character2");
+        PhotonNetwork.LoadLevel("Character3");
     }
 
     private void OnJoinedRoom() {
@@ -42,7 +42,7 @@ public class photonHandlerNoDestroy : MonoBehaviour {
 
     private void OnSceneFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        if(scene.name == "Character2")
+        if(scene.name == "Character3")
         {
             
         }

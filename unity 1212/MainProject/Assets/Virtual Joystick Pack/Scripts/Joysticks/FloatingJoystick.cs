@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class FloatingJoystick : Joystick
+public class FloatingJoystick : JoystickS
 {
     Vector2 joystickCenter = Vector2.zero;
 
