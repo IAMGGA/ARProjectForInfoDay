@@ -37,6 +37,8 @@ public class Player : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        UIUpdate();
+        
         if (health <= 0)
         {
             Dead();
@@ -48,13 +50,16 @@ public class Player : MonoBehaviour {
             return;
 
         }
-        coretext.GetComponent<Text>().text = "x " + MyCore;
-
-        yourhealthBar.fillAmount = health / 200;
+        
         if (othercaslte)
         {
             otherhealthBar.fillAmount = othercaslte.GetComponent<Player>().health / 200;
         }
+    }
+
+    public void UIUpdate() {
+        coretext.GetComponent<Text>().text = "x " + MyCore;
+        yourhealthBar.fillAmount = health / 200;
     }
 
     void Dead()
