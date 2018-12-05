@@ -472,7 +472,6 @@ GameObject:
   - component: {fileID: 4025208873170164}
   - component: {fileID: 33265012279628938}
   - component: {fileID: 23208928572717224}
-  - component: {fileID: 114550833654506688}
   m_Layer: 0
   m_Name: rubber_grip
   m_TagString: Untagged
@@ -490,7 +489,6 @@ GameObject:
   - component: {fileID: 4929545034351304}
   - component: {fileID: 33370412172586342}
   - component: {fileID: 23870115448064614}
-  - component: {fileID: 114599926342512044}
   m_Layer: 0
   m_Name: Cone007
   m_TagString: Untagged
@@ -2765,30 +2763,6 @@ MonoBehaviour:
   Castle: {fileID: 0}
   Enemy: []
   EnemyList: 0
---- !u!114 &114550833654506688
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1412344660443344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23fa698560b688845bf08bafe6dc1b28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AdditionalVertexStreamMesh: {fileID: 0}
---- !u!114 &114599926342512044
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1415538489462100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23fa698560b688845bf08bafe6dc1b28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AdditionalVertexStreamMesh: {fileID: 0}
 --- !u!114 &114617393552804922
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2804,7 +2778,7 @@ MonoBehaviour:
   Damage: 30
   Core: 3
   AttDistance: 0
-  AttDistanceMax: 1.3
+  AttDistanceMax: 1.4
   moveSpeed: 0.8
   canMove: 0
   MyTarget: {fileID: 0}

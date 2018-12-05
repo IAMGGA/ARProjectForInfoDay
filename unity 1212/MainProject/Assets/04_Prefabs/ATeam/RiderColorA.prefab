@@ -830,7 +830,6 @@ GameObject:
   - component: {fileID: 4727096134282060}
   - component: {fileID: 33007801986362154}
   - component: {fileID: 23491670454567526}
-  - component: {fileID: 114028159017653344}
   m_Layer: 0
   m_Name: Sphere001
   m_TagString: Untagged
@@ -2749,18 +2748,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114028159017653344
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1931580249047132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23fa698560b688845bf08bafe6dc1b28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AdditionalVertexStreamMesh: {fileID: 0}
 --- !u!114 &114079305680934698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2791,7 +2778,7 @@ MonoBehaviour:
   Damage: 30
   Core: 3
   AttDistance: 0
-  AttDistanceMax: 1.3
+  AttDistanceMax: 1.4
   moveSpeed: 0.8
   canMove: 0
   MyTarget: {fileID: 0}

@@ -11,6 +11,7 @@ public class Spwan : MonoBehaviour {
     public float CoolDown = 2;
     public GameObject[] SpwanButton;
     public GameObject player;
+
         private void Start()
     {
         player = GameObject.Find("Player2Castle");
@@ -22,20 +23,12 @@ public class Spwan : MonoBehaviour {
         CoolDown -= Time.deltaTime;
 	}
 
-    public void Spwanaa()
-    {
-        if (CoolDown <= 0)
-        {
-            Instantiate(Army[0], spwan.transform.position, Quaternion.identity);
-            CoolDown = 2;
-        }
-    }
 
     public void SpwanRider()
     {
         if (CoolDown <= 0 && player.GetComponent<Player>().MyCore >= 3 )
         {
-            player.GetComponent<Player>().MyCore -= 3;
+            AddCore1();
             Instantiate(Army[0], spwan.transform.position, Quaternion.identity);
             CoolDown = 2;
         }
@@ -45,7 +38,7 @@ public class Spwan : MonoBehaviour {
     {
         if (CoolDown <= 0 && player.GetComponent<Player>().MyCore >= 2)
         {
-            player.GetComponent<Player>().MyCore -= 2;
+            AddCore2();
             Instantiate(Army[1], spwan.transform.position, Quaternion.identity);
             CoolDown = 2;
         }
@@ -55,10 +48,23 @@ public class Spwan : MonoBehaviour {
     {
         if (CoolDown <= 0 && player.GetComponent<Player>().MyCore >= 1)
         {
-            player.GetComponent<Player>().MyCore -= 1;
+            AddCore3();
             Instantiate(Army[2], spwan.transform.position, Quaternion.identity);
             CoolDown = 2;
         }
     }
 
+
+    public void AddCore1()
+    {
+        player.GetComponent<Player>().MyCore -= 3;
+    }
+    public void AddCore2()
+    {
+        player.GetComponent<Player>().MyCore -= 2;
+    }
+    public void AddCore3()
+    {
+        player.GetComponent<Player>().MyCore -= 1;
+    }
 }

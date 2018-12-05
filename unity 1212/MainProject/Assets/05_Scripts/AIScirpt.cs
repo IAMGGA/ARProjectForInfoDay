@@ -14,59 +14,72 @@ public class AIScirpt : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        Armylist = this.gameObject.GetComponent<Spwan>().Army;
+        //Armylist = this.gameObject.GetComponent<Spwan>().Army;
         core = 5;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        cooldown -= Time.deltaTime;
-        addCoreTime -= Time.deltaTime;
-        callArmy -= Time.deltaTime;
+        TimeCounting();
 
         if (addCoreTime <= 0)
         {
-            core++;
-            addCoreTime =10f;
-        }else if(callArmy <= 0)
+            AddCore();
+        }
+        else if(callArmy <= 0)
         {
-            Caseint = Random.Range(1, 3);
-            if (cooldown <= 0)
-            {
-                switch (Caseint)
-                {
-                    case 1:
-                        if (core >= 3)
-                        {
-                            core -= 3;
-                            Instantiate(Armylist[0], spwan.transform.position, Quaternion.identity);
-                            cooldown = 15;
-                        }
-                        break;
-                    case 2:
-                        if (core >= 2)
-                        {
-                            core -= 2;
-                            Instantiate(Armylist[1], spwan.transform.position, Quaternion.identity);
-                            cooldown = 10;
-                        }
-                        break;
-                    case 3:
-                        if (core >= 1)
-                        {
-                            core -= 1;
-                            Instantiate(Armylist[2], spwan.transform.position, Quaternion.identity);
-                            cooldown = 15;
-                        }
-                        break;
-                }
-            }
-            callArmy = 3f;
+            AddArmy();
         }
 
 
     }
 
+    public void TimeCounting()
+    {
+        cooldown -= Time.deltaTime;
+        addCoreTime -= Time.deltaTime;
+        callArmy -= Time.deltaTime;
+    }
 
+    public void AddCore() {
+        core++;
+        addCoreTime = 10f;
+    }
+
+    public void AddArmy()
+    {
+        Caseint = Random.Range(1, 3);
+        if (cooldown <= 0)
+        {
+            switch (Caseint)
+            {
+                case 1:
+                    if (core >= 3)
+                    {
+                        core -= 3;
+                        Instantiate(Armylist[0], spwan.transform.position, Quaternion.identity);
+                        cooldown = 15;
+                    }
+                    break;
+                case 2:
+                    if (core >= 2)
+                    {
+                        core -= 2;
+                        Instantiate(Armylist[1], spwan.transform.position, Quaternion.identity);
+                        cooldown = 10;
+                    }
+                    break;
+                case 3:
+                    if (core >= 1)
+                    {
+                        core -= 1;
+                        Instantiate(Armylist[2], spwan.transform.position, Quaternion.identity);
+                        cooldown = 15;
+                    }
+                    break;
+            }
+        }
+        callArmy = 3f;
+    }
 
 }

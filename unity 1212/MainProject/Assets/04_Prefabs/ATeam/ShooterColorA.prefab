@@ -1549,7 +1549,6 @@ GameObject:
   - component: {fileID: 4124749303159982}
   - component: {fileID: 33164831183387738}
   - component: {fileID: 23774276550513862}
-  - component: {fileID: 114266104385611100}
   m_Layer: 0
   m_Name: Chimney
   m_TagString: Untagged
@@ -7042,18 +7041,6 @@ MonoBehaviour:
   Castle: {fileID: 0}
   Enemy: []
   EnemyList: 0
---- !u!114 &114266104385611100
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1724662031609230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23fa698560b688845bf08bafe6dc1b28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AdditionalVertexStreamMesh: {fileID: 0}
 --- !u!114 &114746042226263560
 MonoBehaviour:
   m_ObjectHideFlags: 1

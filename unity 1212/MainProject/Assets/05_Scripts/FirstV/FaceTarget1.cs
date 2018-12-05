@@ -56,7 +56,7 @@ public class FaceTarget1 : MonoBehaviour {
             }
             else
             {
-                Debug.Log("Alexander");
+                //Debug.Log("Alexander");
                 Target = Castle;
                 isCastleTarget = true;
                 //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime);
