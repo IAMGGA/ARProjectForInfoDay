@@ -8,7 +8,7 @@ public class SinglePlayerHandler : MonoBehaviour {
 
     public void  changeScene()
     {
-        SceneManager.LoadScene("Character3");
+        SceneManager.LoadScene("Character4Single");
     }
     
 
